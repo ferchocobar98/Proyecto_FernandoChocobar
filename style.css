@@ -20,74 +20,22 @@
 
 
 #header {
-    width: 1920px;
+    width: 100%;
     height: auto;
     display: flex; /* Activar flexbox en el contenedor */
     /*align-items:center; /* Alinear verticalmente el logo y la navegación */
     justify-content: space-between; /* Dejar espacio entre el logo y la navegación si es necesario */
-    background-color: #FF3823;
+    background-color: hwb(57 37% 2%);
     position: relative;
 }
 
 
-.form_head {
-    margin-right: 200px;
-}
-
-.nav1 ul , li {
-    list-style: none;
-    display: inline-block;
-    margin-top: 15px;
-    justify-content: space-between;
-    margin-right: 100px;
-    margin-top: 10px;
-}
-
-li {
-    font-size: 20px;
-    padding: 10px;
-} 
-
-a {
-    text-decoration: none;
-    color: black;
-    
-}
 
 .logotop img {
     width: 150px; 
-    height: auto; 
-    z-index: 10;  
+    height: auto;  
     position: relative; 
     align-items: center;
-}
-
-.nombre_head h1 {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    
-}
-
-h1 {
-    font-size: 35px;
-    font-weight: bold;
-    font-family: "Edu AU VIC WA NT Hand", cursive;
-    font-style: italic;
-}
- 
-.nav1 input {
-    display: block;
-    box-sizing: border-box;
-    width: 900px;
-    height: 40px;
-    border-radius: 15px;
-    margin-left: 10px;
-    margin-top: 40px;
-    
 }
 
 .usuario img {
@@ -104,7 +52,7 @@ h1 {
 
 
 #main {
-    width:1920px;
+    width:100%;
     height: auto;
     background-color: white;
     
@@ -197,11 +145,12 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1920px;
+    width: 100%;
     height:auto;
     padding: 20px;
     box-sizing: border-box;
     background-color: #FF5D55;
+    
 
     
 }
@@ -212,6 +161,7 @@ h2 {
     height: 35px;
     align-items: center;
     margin-right: 12px;
+    transition: 1s;
 }
 .redes_foot img :last-child {
     margin-right: 0px;
@@ -224,20 +174,73 @@ h2 {
     font-weight: bold;
     font-family: "Edu AU VIC WA NT Hand", cursive;
     font-style: italic;
+    transition: 1s;
 }
 .map_foot img { 
     width: 35px;
     height: 35px;
     align-items: center;
     margin-right: 12px;
+    transition: 1s;
 }
 
+.map_foot:hover , .titulo_redes:hover , .redes_foot:hover{
+    filter: drop-shadow(15px 10px 3px rgba(0, 0, 0, 0.311));
+    margin-bottom: 20px;
+    transition: 1s;
+}
 ---------
 
-
 #main_page1 {
+    width: 1920px;
+    height: auto;
+    background-color:antiquewhite;
     display: flex;
+    position: relative;
+
+}
+
+.h2_page1 {
+    margin-bottom: 15px;
+}
+.contactanos {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+
+}
+
+.contactanos_form , .contactanos_map {
+    width: 50%;
+   
+}
+
+.contactanos_form ul {
+    display: flex;
+    width: 100%;
+    align-items: left;
     justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.contactanos_form ul li input {
+    flex-grow: 1; 
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+/* #main_page1 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 
 .div_principal {
@@ -271,14 +274,18 @@ h2 {
 
 h4 
 
-.img_contactanos {
-    margin-right: 600px;
+.img_contactanos iframe {
+    display: flex;
+    justify-content: center;
+    
+    
 }
-.img_contactanos img {
+
+
+/* .img_contactanos img {
     margin-right: 500px;
     margin-top: 20px;
     width: 400px;
-    height: 400px;
+    height: 400px; }*/
     
-    
-}
+     */
