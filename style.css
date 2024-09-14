@@ -20,13 +20,7 @@
 
 
 #header {
-    width: 100%;
-    height: auto;
-    display: flex; /* Activar flexbox en el contenedor */
-    /*align-items:center; /* Alinear verticalmente el logo y la navegación */
-    justify-content: space-between; /* Dejar espacio entre el logo y la navegación si es necesario */
     background-color: hwb(57 37% 2%);
-    position: relative;
 }
 
 
@@ -37,19 +31,7 @@
     position: relative; 
     align-items: center;
 }
-
-.usuario img {
-    width: 80px;
-    height: 80px;
-    margin-top: 20px;
-    margin-right: 40px;
-}
-
-.usuario h2 {
-    margin-right: 40px;
-    margin-top: 8px;
-}
-
+A
 
 #main {
     width:100%;
