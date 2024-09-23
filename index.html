@@ -17,8 +17,10 @@
     <link rel="stylesheet" href="style.css">
     <title>Despensa San Expedito</title>
 </head>
+
 <body>
     <header id="header"> 
+<<<<<<< HEAD
 
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -84,17 +86,263 @@
         </nav>
 
          -->
+=======
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html"><img src="/images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-column" id="navbarSupportedContent">
+                    <ul class="navbar-nav w-100 justify-content-between mb-2">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/page1.html">Contactanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/page2.html">Ofertas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/page3.html">Folletos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/page4.html">Formas de Pago</a>
+                        </li>
+                    </ul>
+    
+                    <form class="d-flex w-100" role="search">
+                        <input class="form-control me-2 w-100" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+
+                <div style="margin-left: 40px;">
+                    <img src="images/user-icono.svg" alt="">
+                    <h2>Login</h2>
+                </div>
+            </div>
+        </nav>
+>>>>>>> 7eaca602474f063c0aedce45d6864de85ef21bcf
     </header>
     
-    <main id="main"> 
+    <main id="main row"> 
         
-        <div>
-            <img class="img_banner"  src="images/banner.jpg" alt="banner">
-
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/carrucel-imagen-1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/carrucel-imagen-2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/carrucel-imagen-3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
         </div>
         
-        <div class="titulos_productos">
 
+
+        <!-- Distribucion de productos -->
+
+        
+
+        <section class="container">
+            <h2 class="text-center">Limpieza y Perfumeria</h2>
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Higenol DH</h5>
+                    <p class="card-text"><img src="images/higenol.jpg" alt=""></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-12 col-lg-6">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Ala 400gr</h5>
+                    <p class="card-text"><img src="images/jabon-en-polvo-400g.png" alt=""></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-12 col-lg-6">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Jabon Liquido Skip p/diluir</h5>
+                    <p class="card-text"><img src="images/skip-diluir.jpg" alt=""></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-12 col-lg-6">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Desodorante Rexona</h5>
+                    <p class="card-text"><img src="images/rexona-odorono.jpg" alt=""></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2 class="text-center">Galletas</h2>
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Media Tarde</h5>
+                    <p class="card-text"><img src="images/Media-tarde.jpeg" alt=""></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-12 col-lg-6">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Don Satur</h5>
+                    <p class="card-text"><img src="images/don-satur.jpeg" alt=""></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-12 col-lg-6">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Cofler Block Chocolate</h5>
+                    <p class="card-text"><img src="images/cofler-roja.jpeg" alt=""></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-12 col-lg-6">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Diversion Surtidas</h5>
+                    <p class="card-text"><img src="images/Diversion-surtida.jpeg" alt=""></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2 class="text-center">Productos Frescos</h2>
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Carnes</h5>
+                    <p class="card-text"><img src="images/carne.png" alt=""></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-12 col-lg-6">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Yogurt Bebible</h5>
+                    <p class="card-text"><img src="images/yogurt.jpeg" alt=""></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-12 col-lg-6">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Hamburguesa PATY</h5>
+                    <p class="card-text"><img src="images/hamburguesa-paty.png" alt=""></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-12 col-lg-6">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Queso Cremoso</h5>
+                    <p class="card-text"><img src="images/queso-cremoso.jpg" alt=""></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2 class="text-center padding">Bebidas</h2>
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Talca 3L</h5>
+                    <p class="card-text"><img src="images/talca3lt.jpg" alt=""></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-12 col-lg-6">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Coca Cola 3L</h5>
+                    <p class="card-text"><img src="images/Coca-3lt.jpg" alt=""></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-12 col-lg-6">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Cerveza Quilmes 1.2L</h5>
+                    <p class="card-text"><img src="images/cerveza-quilmes-1.2.jpg" alt=""></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-12 col-lg-6">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Cerveza Salta 1.2</h5>
+                    <p class="card-text"><img src="images/cerveza-salta.png" alt=""></p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+<!-- 
         <h2 class="titulo_perfumeria">PERFUMERIA Y LIMPIEZA</h2>   
         <h2 class="titulo_fresco">PRODUCTOS FRESCOS</h2>
         <h2 class="titulo_bebidas">BEBIDAS</h2>
@@ -124,20 +372,7 @@
             </div>
         </nav>
         
-        <!-- <form>
-            <label for="Usuario">Ingresar</label>
-            <input type="text" value="" placeholder="email">
-            <label for="password">Contraseña</label>
-            <input type="password" name="" id="">
-            
-            <select name="sucursales" id="">
-                <option value="text">Sucursal 1</option>
-                <option value="text">Sucursal 2</option>
-                <option value="text">Sucursal 3</option>
-            </select>
-            
-
-        </form> -->
+        -->
 
     </main>
 
