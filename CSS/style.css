@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/*PESO DE CLASES
+1-!important
+2-ID
+3-CLASS
+4-SELECTOR/ETIQUETA
+*/
+/*FORMATEO DE DOC*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-style: none;
+  font-family: "none";
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#header {
+  background-color: rgb(250, 242, 94);
+}
+
+.logotop img {
+  width: 150px;
+  height: auto;
+  position: relative;
+  align-items: center;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #FF5D55;
+}
+
+.redes_foot img {
+  display: inline-flex;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  margin-right: 12px;
+  transition: 1s;
+}
+
+.redes_foot img :last-child {
+  margin-right: 0px;
+}
+
+.titulo_redes h3 {
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-style: italic;
+  transition: 1s;
+}
+
+.map_foot img {
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  margin-right: 12px;
+  transition: 1s;
+}
+
+.map_foot:hover, .titulo_redes:hover, .redes_foot:hover {
+  filter: drop-shadow(15px 10px 3px rgba(0, 0, 0, 0.311));
+  margin-bottom: 20px;
+  transition: 1s;
+}
+
+/* Ajuste para pantallas más pequeñas page ofertas-descuentos */
+#main {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.descuentos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.descuentos a {
+  flex: 1 1 calc(20% - 10px);
+  max-width: calc(20% - 10px);
+  box-sizing: border-box;
+  border: 3px solid black;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.descuentos a img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .descuentos a {
+    flex: 1 1 calc(33.33% - 10px);
+    max-width: calc(33.33% - 10px);
+  }
+}
+@media (max-width: 480px) {
+  .descuentos a {
+    flex: 1 1 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+  }
+}
+.categoriasMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.categoriasLista, .categoriasImg {
+  flex: 1;
+}
+
+.categoriasLista {
+  display: flex;
+  height: 100%;
+}
+.categoriasLista ul {
+  align-items: right;
+}
+.categoriasLista li {
+  flex-direction: column;
+  border: 2px solid;
+  border-color: black;
+}
+
+.categoriasImg {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.categoriasImg img {
+  width: 100%;
+  height: auto;
+  padding: 2px;
+}
+
+/*# sourceMappingURL=style.css.map */

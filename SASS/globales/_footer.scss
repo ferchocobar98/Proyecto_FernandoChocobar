@@ -1,0 +1,48 @@
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height:auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #FF5D55;
+    
+
+    
+}
+
+.redes_foot img {
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    margin-right: 12px;
+    transition: 1s;
+}
+.redes_foot img :last-child {
+    margin-right: 0px;
+}
+
+.titulo_redes h3 {
+
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-style: italic;
+    transition: 1s;
+}
+.map_foot img { 
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    margin-right: 12px;
+    transition: 1s;
+}
+
+.map_foot:hover , .titulo_redes:hover , .redes_foot:hover{
+    filter: drop-shadow(15px 10px 3px rgba(0, 0, 0, 0.311));
+    margin-bottom: 20px;
+    transition: 1s;
+}
