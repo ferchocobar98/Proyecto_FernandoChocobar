@@ -83,17 +83,7 @@ h2 {
 .categoriasLista{
     display: flex;
     height: 100%;
-    
-
-    ul {
-        align-items:right ;
-    }
-    li {
-        flex-direction: column;
-        border: 2px solid;
-        border-color: black;
-        
-    }
+    align-items: center;
 }
 .categoriasImg {
     display: flex;
