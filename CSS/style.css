@@ -141,14 +141,7 @@ h2 {
 .categoriasLista {
   display: flex;
   height: 100%;
-}
-.categoriasLista ul {
-  align-items: right;
-}
-.categoriasLista li {
-  flex-direction: column;
-  border: 2px solid;
-  border-color: black;
+  align-items: center;
 }
 
 .categoriasImg {
