@@ -83,14 +83,6 @@ a {
   transition: 1s;
 }
 
-.card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 /* Ajuste para pantallas más pequeñas page ofertas-descuentos */
 #main {
   width: 100%;
