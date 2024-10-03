@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#desplegable {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#desplegable .menu-item {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-bottom: 5px;
+    width: 33.3%;
+    
+}
+
+
+#desplegable .menu-item:hover {
+    background-color: #ff0000;
+}
+
+
+
+.submenu li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
