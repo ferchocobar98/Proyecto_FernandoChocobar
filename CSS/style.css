@@ -36,6 +36,18 @@ a {
   font-size: x-large;
 }
 
+@media (max-width: 600px) {
+  .header__logo {
+    width: 150px;
+    height: auto;
+  }
+  .header__login {
+    width: 60px;
+  }
+  .header__login p {
+    font-size: large;
+  }
+}
 #footer {
   display: flex;
   justify-content: space-between;
@@ -83,6 +95,12 @@ a {
   transition: 1s;
 }
 
+@media (max-width: 600px) {
+  .redes_foot {
+    display: flex;
+    flex-direction: column;
+  }
+}
 /* Ajuste para pantallas más pequeñas page ofertas-descuentos */
 .folletos__titulo {
   text-align: center;
@@ -148,35 +166,78 @@ a {
   height: auto;
 }
 
-body {
-  font-family: Arial, sans-serif;
-}
-
-#desplegable {
+/* Estilos del navbar */
+#navbar__formasdepago {
+  background-color: rgb(255, 0, 0);
+  padding: 10px;
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
+  justify-content: center;
+  gap: 20px;
 }
 
-#desplegable .menu-item {
+#navbar__formasdepago a {
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
   cursor: pointer;
-  padding: 10px;
-  background-color: #333;
-  color: white;
-  margin-bottom: 5px;
-  width: 33.3%;
 }
 
-#desplegable .menu-item:hover {
-  background-color: #ff0000;
+.button {
+  background-color: white;
 }
 
-.submenu li {
-  background-color: #f4f4f4;
-  padding: 10px;
-  margin-bottom: 2px;
+/* Estilos de las "páginas" */
+.page {
+  display: none;
+  padding: 20px;
 }
 
+/* Para mostrar la página activa */
+.active {
+  display: block;
+}
+
+.page__contenedor {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  justify-items: center;
+}
+
+.page__bancos {
+  width: 200px;
+  height: 170px;
+  overflow: hidden;
+  border-radius: 30px;
+  border: 5px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page__bancos img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .page__contenedor {
+    flex-direction: column 3;
+    gap: 10px;
+  }
+  .page__bancos {
+    width: 110px;
+    height: 80px;
+  }
+  .page__bancos {
+    border: 2px solid #333;
+  }
+}
 #main {
   width: 100%;
   height: auto;

@@ -14,3 +14,20 @@
 .titulo__login {
     font-size:x-large;
 }
+
+@media (max-width: 600px) {
+    .header__logo {
+        width: 150px;
+        height: auto;
+
+    }
+    .header__login {
+        width: 60px;
+
+    }
+    .header__login p {
+        font-size: large;
+    }
+
+
+}

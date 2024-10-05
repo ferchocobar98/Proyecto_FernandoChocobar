@@ -46,3 +46,10 @@
     margin-bottom: 20px;
     transition: 1s;
 }
+
+@media (max-width: 600px) {
+    .redes_foot {
+        display: flex;
+        flex-direction: column;
+    }
+}

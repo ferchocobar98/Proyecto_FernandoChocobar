@@ -1,33 +1,77 @@
-body {
-    font-family: Arial, sans-serif;
-}
 
-#desplegable {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-#desplegable .menu-item {
-    cursor: pointer;
+/* Estilos del navbar */
+#navbar__formasdepago {
+    background-color: rgb(255, 0, 0);
     padding: 10px;
-    background-color: #333;
-    color: white;
-    margin-bottom: 5px;
-    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#navbar__formasdepago a {
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
     
 }
 
-
-#desplegable .menu-item:hover {
-    background-color: #ff0000;
+.button {
+    background-color: white;
+    
 }
 
-
-
-.submenu li {
-    background-color: #f4f4f4;
-    padding: 10px;
-    margin-bottom: 2px;
+/* Estilos de las "páginas" */
+.page {
+    display: none; 
+    padding: 20px;
 }
 
+/* Para mostrar la página activa */
+.active {
+    display: block;
+}
+
+.page__contenedor {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-items: center;
+}
+
+.page__bancos {
+    width: 200px;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 5px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page__bancos img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media (max-width: 600px){
+    .page__contenedor {
+        flex-direction: column 3; 
+        gap: 10px; 
+    }
+
+    .page__bancos {
+        width: 110px; 
+        height: 80px; 
+    }
+
+    .page__bancos {
+        border: 2px solid #333;
+    }
+}
