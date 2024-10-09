@@ -10,7 +10,9 @@
 
     <link rel="icon" href="../icons/favicon.ico">
     
-    
+        <!-- Libreria de Animaciones -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+
         <!-- libreria boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
@@ -52,7 +54,7 @@
                 </div>
 
                 <div style="margin-left: 40px;">
-                    <img src="../images/user-icono.svg" alt="">
+                    <img src="../images/user-icono.svg" alt="UserLogo">
                     <p class="titulo__login"> Sing in</p>
                 </div>
             </div>
@@ -101,70 +103,136 @@
 
     <!-- Contenidos dinámicos (páginas) -->
     <div id="homePage" class="page active">
-        <h1>Bienvenido a la página de inicio</h1>
-        <p>Este es el contenido de la página principal. Haz clic en "Acerca de" para cambiar de página.</p>
+        <section class="page__pordia">
+
+            <div class="page__pordia__promociones">
+                <p>Haciendo tu compra en Despensa San Expedito todos los días.</p>
+                <img src="../images/formasdepago/promo1.png" alt="promocion">
+            
+                <!-- Contenedor del Dropdown -->
+                <div class="dropdown-container">
+                    <!-- Botón para activar el Dropdown -->
+                    <button class="dropdown-toggle" data-target="dropdown-1">Ver Legal</button>
+                    
+                    <!-- Contenido desplegable -->
+                    <div id="dropdown-1" class="dropdown-content">
+                        CARTERA DE CONSUMO Y COMERCIAL. 30% DE DESCUENTO. VÁLIDO TODOS LOS DÍAS LUNES DEL 01/10/2024 AL 31/12/2024 ABONANDO CON MODO A TRAVÉS DE LA APP SANTANDER O APP MODO CON TARJETA SANTANDER CRÉDITO Y/O DÉBITO VISA EN TODOS LOS LOCALES ADHERIDOS, EN COMPRAS ONLINE ABONADAS MEDIANTE LA WEB LOS DÍAS LUNES, O REALIZANDO EL PEDIDO MEDIANTE LA WEB CON RETIRO Y PAGO EN TIENDA PROGRAMADO PARA UN DÍA LUNES. NO ESTÁN INCLUIDOS EN LA PROMOCIÓN ELECTRODOMÉSTICOS, CARNE VACUNA Y PRODUCTOS QUE ESTÉN DENTRO DEL PROGRAMA PRECIOS JUSTOS. NO APLICA A TARJETAS DE DÉBITO VINCULADAS A CAJAS DE AHORRO PESOS GRATUITAS. EL AHORRO SE HARÁ EFECTIVO VÍA REINTEGRO EN LA CUENTA ASOCIADA A LA TARJETA UTILIZADA, DENTRO DE LOS VEINTE DÍAS HÁBILES DE EFECTUADO EL CONSUMO. ES NECESARIO QUE PREVIO A REALIZARSE EL REINTEGRO TENGAS ASOCIADA A MODO LA CUENTA QUE SEA DEL MISMO BANCO QUE LA TARJETA CON LA QUE REALIZASTE LA COMPRA. TOPE DE REINTEGRO $10.000 POR USUARIO POR SEMANA. EJEMPLO: EN UNA COMPRA DE $50.000, VERÁS EN TU RESUMEN UN CONSUMO DE $50.000 Y UN REINTEGRO DE $10.000.
+                    </div> 
+                </div>
+            </div>
+
+            <div class="page__pordia__promociones"> 
+                <p>Haciendo tu compra en Despensa San Expedito todos los días.</p>
+                <img src="../images/formasdepago/promo2.png" alt="promocion">
+                <div class="dropdown-container">
+                    <button class="dropdown-toggle" data-target="dropdown-2">Ver Legal</button>
+                    <div id="dropdown-2" class="dropdown-content">
+                        CARTERA DE CONSUMO Y COMERCIAL. 30% DE DESCUENTO. VÁLIDO TODOS LOS DÍAS LUNES DEL 01/10/2024 AL 31/12/2024 ABONANDO CON MODO A TRAVÉS DE LA APP SANTANDER O APP MODO CON TARJETA SANTANDER CRÉDITO Y/O DÉBITO VISA EN TODOS LOS LOCALES ADHERIDOS, EN COMPRAS ONLINE ABONADAS MEDIANTE LA WEB LOS DÍAS LUNES, O REALIZANDO EL PEDIDO MEDIANTE LA WEB CON RETIRO Y PAGO EN TIENDA PROGRAMADO PARA UN DÍA LUNES. NO ESTÁN INCLUIDOS EN LA PROMOCIÓN ELECTRODOMÉSTICOS, CARNE VACUNA Y PRODUCTOS QUE ESTÉN DENTRO DEL PROGRAMA PRECIOS JUSTOS. NO APLICA A TARJETAS DE DÉBITO VINCULADAS A CAJAS DE AHORRO PESOS GRATUITAS. EL AHORRO SE HARÁ EFECTIVO VÍA REINTEGRO EN LA CUENTA ASOCIADA A LA TARJETA UTILIZADA, DENTRO DE LOS VEINTE DÍAS HÁBILES DE EFECTUADO EL CONSUMO. ES NECESARIO QUE PREVIO A REALIZARSE EL REINTEGRO TENGAS ASOCIADA A MODO LA CUENTA QUE SEA DEL MISMO BANCO QUE LA TARJETA CON LA QUE REALIZASTE LA COMPRA. TOPE DE REINTEGRO $10.000 POR USUARIO POR SEMANA. EJEMPLO: EN UNA COMPRA DE $50.000, VERÁS EN TU RESUMEN UN CONSUMO DE $50.000 Y UN REINTEGRO DE $10.000.
+                    </div> 
+                </div>
+            </div>
+
+            <div class="page__pordia__promociones"> 
+                <p>Haciendo tu compra en Despensa San Expedito todos los días.</p>
+                <img src="../images/formasdepago/promo3.png" alt="promocion">
+                <div class="dropdown-container">
+                    <button class="dropdown-toggle" data-target="dropdown-3">Ver Legal</button>
+                    <div id="dropdown-3" class="dropdown-content">
+                        CARTERA DE CONSUMO Y COMERCIAL. 30% DE DESCUENTO. VÁLIDO TODOS LOS DÍAS LUNES DEL 01/10/2024 AL 31/12/2024 ABONANDO CON MODO A TRAVÉS DE LA APP SANTANDER O APP MODO CON TARJETA SANTANDER CRÉDITO Y/O DÉBITO VISA EN TODOS LOS LOCALES ADHERIDOS, EN COMPRAS ONLINE ABONADAS MEDIANTE LA WEB LOS DÍAS LUNES, O REALIZANDO EL PEDIDO MEDIANTE LA WEB CON RETIRO Y PAGO EN TIENDA PROGRAMADO PARA UN DÍA LUNES. NO ESTÁN INCLUIDOS EN LA PROMOCIÓN ELECTRODOMÉSTICOS, CARNE VACUNA Y PRODUCTOS QUE ESTÉN DENTRO DEL PROGRAMA PRECIOS JUSTOS. NO APLICA A TARJETAS DE DÉBITO VINCULADAS A CAJAS DE AHORRO PESOS GRATUITAS. EL AHORRO SE HARÁ EFECTIVO VÍA REINTEGRO EN LA CUENTA ASOCIADA A LA TARJETA UTILIZADA, DENTRO DE LOS VEINTE DÍAS HÁBILES DE EFECTUADO EL CONSUMO. ES NECESARIO QUE PREVIO A REALIZARSE EL REINTEGRO TENGAS ASOCIADA A MODO LA CUENTA QUE SEA DEL MISMO BANCO QUE LA TARJETA CON LA QUE REALIZASTE LA COMPRA. TOPE DE REINTEGRO $10.000 POR USUARIO POR SEMANA. EJEMPLO: EN UNA COMPRA DE $50.000, VERÁS EN TU RESUMEN UN CONSUMO DE $50.000 Y UN REINTEGRO DE $10.000.
+                    </div> 
+                </div>
+            </div>
+
+            <div class="page__pordia__promociones"> 
+                <p>Haciendo tu compra en Despensa San Expedito todos los días.</p>
+                <img src="../images/formasdepago/promo4.png" alt="promocion">
+                <div class="dropdown-container">
+                    <button class="dropdown-toggle" data-target="dropdown-4">Ver Legal</button>
+                    <div id="dropdown-4" class="dropdown-content">
+                        CARTERA DE CONSUMO Y COMERCIAL. 30% DE DESCUENTO. VÁLIDO TODOS LOS DÍAS LUNES DEL 01/10/2024 AL 31/12/2024 ABONANDO CON MODO A TRAVÉS DE LA APP SANTANDER O APP MODO CON TARJETA SANTANDER CRÉDITO Y/O DÉBITO VISA EN TODOS LOS LOCALES ADHERIDOS, EN COMPRAS ONLINE ABONADAS MEDIANTE LA WEB LOS DÍAS LUNES, O REALIZANDO EL PEDIDO MEDIANTE LA WEB CON RETIRO Y PAGO EN TIENDA PROGRAMADO PARA UN DÍA LUNES. NO ESTÁN INCLUIDOS EN LA PROMOCIÓN ELECTRODOMÉSTICOS, CARNE VACUNA Y PRODUCTOS QUE ESTÉN DENTRO DEL PROGRAMA PRECIOS JUSTOS. NO APLICA A TARJETAS DE DÉBITO VINCULADAS A CAJAS DE AHORRO PESOS GRATUITAS. EL AHORRO SE HARÁ EFECTIVO VÍA REINTEGRO EN LA CUENTA ASOCIADA A LA TARJETA UTILIZADA, DENTRO DE LOS VEINTE DÍAS HÁBILES DE EFECTUADO EL CONSUMO. ES NECESARIO QUE PREVIO A REALIZARSE EL REINTEGRO TENGAS ASOCIADA A MODO LA CUENTA QUE SEA DEL MISMO BANCO QUE LA TARJETA CON LA QUE REALIZASTE LA COMPRA. TOPE DE REINTEGRO $10.000 POR USUARIO POR SEMANA. EJEMPLO: EN UNA COMPRA DE $50.000, VERÁS EN TU RESUMEN UN CONSUMO DE $50.000 Y UN REINTEGRO DE $10.000.
+                    </div> 
+                </div>
+            </div>
+
+            <div class="page__pordia__promociones"> 
+                <p>Haciendo tu compra en Despensa San Expedito todos los días.</p>
+                <img src="../images/formasdepago/promo5.png" alt="promocion">
+                <div class="dropdown-container">
+                    <button class="dropdown-toggle" data-target="dropdown-5">Ver Legal</button>
+                    <div id="dropdown-5" class="dropdown-content">
+                        CARTERA DE CONSUMO Y COMERCIAL. 30% DE DESCUENTO. VÁLIDO TODOS LOS DÍAS LUNES DEL 01/10/2024 AL 31/12/2024 ABONANDO CON MODO A TRAVÉS DE LA APP SANTANDER O APP MODO CON TARJETA SANTANDER CRÉDITO Y/O DÉBITO VISA EN TODOS LOS LOCALES ADHERIDOS, EN COMPRAS ONLINE ABONADAS MEDIANTE LA WEB LOS DÍAS LUNES, O REALIZANDO EL PEDIDO MEDIANTE LA WEB CON RETIRO Y PAGO EN TIENDA PROGRAMADO PARA UN DÍA LUNES. NO ESTÁN INCLUIDOS EN LA PROMOCIÓN ELECTRODOMÉSTICOS, CARNE VACUNA Y PRODUCTOS QUE ESTÉN DENTRO DEL PROGRAMA PRECIOS JUSTOS. NO APLICA A TARJETAS DE DÉBITO VINCULADAS A CAJAS DE AHORRO PESOS GRATUITAS. EL AHORRO SE HARÁ EFECTIVO VÍA REINTEGRO EN LA CUENTA ASOCIADA A LA TARJETA UTILIZADA, DENTRO DE LOS VEINTE DÍAS HÁBILES DE EFECTUADO EL CONSUMO. ES NECESARIO QUE PREVIO A REALIZARSE EL REINTEGRO TENGAS ASOCIADA A MODO LA CUENTA QUE SEA DEL MISMO BANCO QUE LA TARJETA CON LA QUE REALIZASTE LA COMPRA. TOPE DE REINTEGRO $10.000 POR USUARIO POR SEMANA. EJEMPLO: EN UNA COMPRA DE $50.000, VERÁS EN TU RESUMEN UN CONSUMO DE $50.000 Y UN REINTEGRO DE $10.000.
+                    </div> 
+                </div>
+            </div>
+
+            
+
+            
+
+        </section>
     </div>  
 
     <div id="aboutPage" class="page">
+        <h2 style="text-align: center;">Bancos y Billeteras</h2> 
         <section class="page__contenedor">
-            <div class="page__bancos">
-                <img src="../images/formasdepago/banco.png" alt="">
+            <button class="page__bancos button hvr-grow">
+                <a href=""><img src="../images/formasdepago/banco.png" alt="Banco"></a>
+            </button>
+        
+            <button class="page__bancos button hvr-grow">
+                <a href=""><img src="../images/formasdepago/bancociudad.png" alt="BancoCiudad"></a>
+            </button>
+
+            <button class="page__bancos button hvr-grow">
+                <a href=""><img src="../images/formasdepago/bancocredicop.png" alt="Credicop"></a>
+            </button>
+
+            <button class="page__bancos button hvr-grow">
+                <a href=""><img src="../images/formasdepago/bancoicbc.png" alt="BancoICBC"></a>
+            </button>
+        
+            <button class="page__bancos button hvr-grow">
+                <a href=""><img src="../images/formasdepago/bancoprex.png" alt="Bancoprex"></a>
+            </button>
+
+            <div class="page__bancos button hvr-grow">
+                <a href=""><img src="../images/formasdepago/bna.png" alt="BNA"></a>
+            </div>
+
+            <div class="page__bancos button hvr-grow">
+                <a href=""><img src="../images/formasdepago/galicia.png" alt="Galicia"></a>
+            </div>
+
+            <div class="page__bancos button hvr-grow">
+                <a href=""><img src="../images/formasdepago/hipotecario.png" alt="Hipotecario"></a>
             </div>
         
-            <div class="page__bancos">
-                <img src="../images/formasdepago/bancociudad.png" alt="">
+            <div class="page__bancos button hvr-grow">
+                <a href=""><img src="../images/formasdepago/macro.png" alt="Macro"></a>
             </div>
 
-            <div class="page__bancos">
-                <img src="../images/formasdepago/bancocredicop.png" alt="">
+            <div class="page__bancos button hvr-grow">
+                <a href=""><img src="../images/formasdepago/mercadopago.png" alt="MercadoPago"></a>
             </div>
 
-            <div class="page__bancos">
-                <img src="../images/formasdepago/bancoicbc.png" alt="">
-            </div>
-        
-            <div class="page__bancos">
-                <img src="../images/formasdepago/bancoprex.png" alt="">
+            <div class="page__bancos button hvr-grow">
+                <a href=""><img src="../images/formasdepago/municipales.png" alt="Municipales"></a>
             </div>
 
-            <div class="page__bancos">
-                <img src="../images/formasdepago/bna.png" alt="">
+            <div class="page__bancos button hvr-grow">
+                <a href=""><img src="../images/formasdepago/personalpay.png" alt="PersonalPay"></a>
             </div>
 
-            <div class="page__bancos">
-                <img src="../images/formasdepago/galicia.png" alt="">
+            <div class="page__bancos button hvr-grow">
+                <a href=""><img src="../images/formasdepago/santander.png" alt="Santander"></a>
             </div>
 
-            <div class="page__bancos">
-                <img src="../images/formasdepago/hipotecario.png" alt="">
-            </div>
-        
-            <div class="page__bancos">
-                <img src="../images/formasdepago/macro.png" alt="">
+            <div class="page__bancos button hvr-grow">
+                <a href=""><img src="../images/formasdepago/supervielle.png" alt="supervielle"></a>
             </div>
 
-            <div class="page__bancos">
-                <img src="../images/formasdepago/mercadopago.png" alt="">
-            </div>
-
-            <div class="page__bancos">
-                <img src="../images/formasdepago/municipales.png" alt="">
-            </div>
-
-            <div class="page__bancos">
-                <img src="../images/formasdepago/personalpay.png" alt="">
-            </div>
-
-            <div class="page__bancos">
-                <img src="../images/formasdepago/santander.png" alt="">
-            </div>
-
-            <div class="page__bancos">
-                <img src="../images/formasdepago/supervielle.png" alt="">
-            </div>
-
-            <div class="page__bancos">
-                <img src="../images/formasdepago/uala.png" alt="">
+            <div class="page__bancos button hvr-grow">
+                <a href=""><img src="../images/formasdepago/uala.png" alt="Uala"></a>
             </div>
         </section>
     </div>
@@ -211,7 +279,22 @@
             var selectedPage = document.getElementById(pageId);
             selectedPage.classList.add('active');
         }
+
+        document.querySelectorAll('.dropdown-toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                const targetId = button.getAttribute('data-target');
+                const dropdown = document.getElementById(targetId);
+
+                // Mostrar/Ocultar el dropdown2 correspondiente
+                dropdown.classList.toggle('show');
+            });
+        });
+
+
+       
     </script>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
        
